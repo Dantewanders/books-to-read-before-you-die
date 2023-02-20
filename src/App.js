@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Home from "./views/Home";
-import About from "./views/About";
-import NotFound from "./views/NotFound";
-import Layout from "./Layout/Layout";
+import Home from "./pages/Home/home";
+import About from "./pages/About/About";
+import BookList from "./components/BookList/BookList";
+import BookDetails from "./components/BookDetails/BookDetails";
 
 
 function App() {
@@ -11,10 +11,10 @@ function App() {
     <div className="App">      
       {/*Each individual Route is wrapped inside of the <Routes> Component */}
       <Routes> {/* Opening tag*/}
-        <Route path="/" element={<Layout/>} >
-          <Route index element={<Home/>} />
-          <Route path= "/about" element={<About/>} />
-          <Route path= "*" element={<NotFound/>} />
+        <Route path="/" element={<Home/>} >
+        <Route path= "About" element={<About/>} />
+        <Route path= "Book" element={<BookList/>} />
+        <Route path= "book/:Id" element={<BookDetails/>} />        
         </Route>
       </Routes>        
       

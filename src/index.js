@@ -4,9 +4,10 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
+
 const prepare = () => {
   if (process.env.NODE_ENV === "development") {
-    // prevents the mock server from working in a deployed, production env
+    {/*prevents the mock server from working in a deployed, production environment*/}
     const { worker } = require("./mocks/browser.js");
     return worker.start();
   }
@@ -16,9 +17,9 @@ const prepare = () => {
 prepare().then(() => {
   const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
-    <React.StrictMode>
+     <React.StrictMode>
       <BrowserRouter>
-        <App />
+        <App /> {/*App is the parent component of all other components*/}
       </BrowserRouter>
     </React.StrictMode>
   );
