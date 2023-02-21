@@ -5,7 +5,7 @@ import './header.css';
 
 
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className='holder'>
         <header className='header'>

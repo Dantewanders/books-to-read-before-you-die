@@ -4,6 +4,7 @@ import Home from "./pages/Home/home";
 import About from "./pages/About/About";
 import BookList from "./components/BookList/BookList";
 import BookDetails from "./components/BookDetails/BookDetails";
+import Bookshelf from "./pages/Bookshelf/Bookshelf";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Routes> {/* Opening tag*/}
         <Route path="/" element={<Home/>} >
         <Route path= "About" element={<About/>} />
+        <Route path= "Bookshelf" element={<Bookshelf/>} />
         <Route path= "Book" element={<BookList/>} />
         <Route path= "book/:Id" element={<BookDetails/>} />        
         </Route>

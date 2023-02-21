@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BookDetails() {
+const BookDetails = () =>{
   return (
     <div>BookDetails</div>
   )

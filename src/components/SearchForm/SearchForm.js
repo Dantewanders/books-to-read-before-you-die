@@ -1,9 +1,10 @@
 import React from 'react'
 
-function SearchForm() {
+const SearchForm = (props) => {
   return (
     <div>SearchForm</div>
   )
 }
 
 export default SearchForm
+
