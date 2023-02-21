@@ -62,9 +62,9 @@
   }
   
   /* backgrounds */
-  /* .bg-pink{background-color: var(--pink-color);}
-  .bg-purple{background-color: var(--purple-color);}
-  .bg-white{background-color: var(--white-color);} */
+  .bg-light-black{background-color: var(--light-black-color-color);}
+  .bg-light-blue{background-color: var(--light-blue-color-color);}
+  .bg-white{background-color: var(--white-color);}
   
   /* text */
   .text-black{color: var(--black-color);}
@@ -118,10 +118,10 @@ without having to repeat the font-weight: 400 declaration for each element.*/
   .grid{
     display: grid;
   }
-  .container{
-    max-width: 1200px;
+  .container{/*the searchbox is centered*/
+    max-width: 800px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 8rem;
   }
   
   /* section title */
