@@ -1,11 +1,10 @@
 import React ,{useRef,useEffect}from 'react'
 import { useNavigate } from 'react-router-dom';
-import { useContext } from '../../context.';
 import "./SearchForm.css";
 import SearchIcon from '@mui/icons-material/Search';
 
-const SearchForm = () => {
-  const {setSearchTerm, setResultTitle} = useContext();
+const SearchForm = (bookData) => {
+  const {setSearchTerm, setResultTitle} = bookData();
   const searchText = useRef('');
   const navigate = useNavigate();
 
