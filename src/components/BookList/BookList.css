@@ -1,0 +1,65 @@
+.booklist, .book-details{
+padding: 3rem 0;
+background-color: white 
+}
+.booklist-content{
+    gap: 3rem;
+}
+.book-item{
+    padding: 3rem 2rem;
+    border-radius:4px;
+    background-color: var(--white-color);
+    box-shadow: rgba(0,0,0,0.05) 0px 5px 15px 0px;
+    transition: var(--transition)
+}
+.book-item:hover{
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px 0px;
+}
+.book-item-img img{
+    width: 180%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-item-info{
+    margin-top: 2rem;
+}
+.book-item-info-item.title{
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+.book-item-info-item.author{
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.book-item-info-item:not(..book-item-info-item.title) span:last-child{/*found in stackoverfloww*/
+    opacity:0.8
+}
+.book-item-info-item.publish-year{
+    opacity: 0.8;
+    font-style:italic;
+    font-size: 14px;
+}
+/*Had to look up @media queries*/
+@media screen and (min-width: 600px){
+    .booklist-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .book-item-img img{
+        max-width: 150px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .booklist-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .book-item-img img{
+        max-width: 120px;
+    }
+}
