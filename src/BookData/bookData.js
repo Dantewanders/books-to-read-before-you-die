@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useCallback } from "react";
-const URL = "http://openlibrary.org/search.json?title=";
+const URL = "https://openlibrary.org/search.json?title=the+lord+of+the+rings";
 const BookContext = React.createContext();
 
-const BookProvider = ({ children }) => {
+const BookProvider = () => {
   /*children is a special prop that is used to render the children of the component*/
   const [searchTerm, setSearchTerm] = useState("The Inferno");
   const [books, setBooks] = useState([]);
@@ -70,9 +70,7 @@ const BookProvider = ({ children }) => {
         setSearchTerm,
         resultTitle,
         setResultTitle,
-      }}
-    >
-      {children}
+      }}>
     </BookContext.Provider>
   );
 };
