@@ -22,7 +22,7 @@ const SearchForm = () => {
     else {
       setSearchTerm(searchText.current.value);
     }
-    navigate('/search');
+    navigate('/book');
 
   return (
     <div className= 'search-form'>

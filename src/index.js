@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
+import {BookProvider} from './BookData/bookData'
 
 
 const prepare = () => {
@@ -19,7 +20,9 @@ prepare().then(() => {
   root.render(
      <React.StrictMode>
       <BrowserRouter>
-        <App /> {/*App is the parent component of all other components*/}
+        <BookProvider> {/*gives context to the whole app */}
+          <App /> {/*App is the parent component of all other components*/}
+        </BookProvider>
       </BrowserRouter>
     </React.StrictMode>
   );
