@@ -31,7 +31,7 @@ background-color: white
     line-height: 1.4;
     margin-bottom: 4rem;
 }
-.book-item-info-item:not(..book-item-info-item.title) span:last-child{/*found in stackoverfloww*/
+.book-item-info-item:not(.book-item-info-item.title) span:last-child{/*found in stackoverfloww*/
     opacity:0.8
 }
 .book-item-info-item.publish-year{
