@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+This was my first solo project with JRS Coding Bootcamp 2023
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

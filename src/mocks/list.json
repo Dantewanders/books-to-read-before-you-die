@@ -1,0 +1,293 @@
+[
+    
+    {
+        "Author": "Herzog",
+        "Title": "Saul Bellow",
+        "Year": "1964"
+    },
+    {
+        "Author": "Louisa May Alcott",
+        "Title": "Little Women",
+        "Year": "1868 & 1869"
+    },
+    {
+        "Author": "Hermann Hesse",
+        "Title": "Siddhartha",
+        "Year": "1951"
+    },
+    {
+        "Author": "Homer",
+        "Title": "The Odyssey",
+        "Year": "8th Century BC"
+    },
+    {
+        "Author": "George Orwell",
+        "Title": "Animal Farm",
+        "Year": "1954"
+    },
+    {
+        "Author": "William Golding",
+        "Title": "Lord of the Flies",
+        "Year": "1954"
+    },
+    {
+        "Author": "Ernest Hemingway",
+        "Title": "The Sun Also Rises",
+        "Year": "1926"
+    },
+    {
+        "Author": "D.H. Lawrence",
+        "Title": "Lady Chatterley's Lover",
+        "Year": "1928"
+    },
+    {
+        "Author": "Jack Kerouac",
+        "Title": "On the Road",
+        "Year": "1957"
+    },
+    {
+        "Author": "James Jones",
+        "Title": "From Here to Eternity",
+        "Year": "1951"
+    },
+    {
+        "Author": "J.D. Salinger",
+        "Title": "The Catcher in the Rye",
+        "Year": "1951"
+    },
+    {
+        "Author": "Anthony Burgess",
+        "Title": "A Clockwork Orange",
+        "Year": "1962"
+    },
+    {
+        "Author": "James Joyce",
+        "Title": "Finnegans Wake",
+        "Year": "1939"
+    },
+    {
+        "Author": "Rudyard Kipling",
+        "Title": "Kim",
+        "Year": "1901"
+    },
+    {
+        "Author": "E.M. Forster",
+        "Title": "A Room With a View",
+        "Year": "1908"
+    },
+    {
+        "Author": "Evelyn Waugh",
+        "Title": "Brideshead Revisited",
+        "Year": "1945"
+    },
+    {
+        "Author": "H.G. Wells",
+        "Title": "The Time Machine",
+        "Year": "1895"
+    },
+    {
+        "Author": "Leo Tolstoy",
+        "Title": "War and Peace",
+        "Year": "1869"
+    },
+    {
+        "Author": "Jules Verne",
+        "Title": "Twenty Thousand Leagues Under the Sea",
+        "Year": "1872"
+    },
+    {
+        "Author": "Jules Verne",
+        "Title": "Around the World in Eighty Days",
+        "Year": "1873"
+    },
+    {
+        "Author": "John O'Hara",
+        "Title": "Appointment in Samarra",
+        "Year": "1934"
+    },
+    {
+        "Author": "John Dos Passos",
+        "Title": "U.S.A",
+        "Year": "1938"
+    },
+    {
+        "Author": "Sherwood Anderson",
+        "Title": "Winesburg, Ohio",
+        "Year": "1919"
+    },
+    {
+        "Author": "Henry James",
+        "Title": "The Wings of the Dove",
+        "Year": "1902"
+    },
+    {
+        "Author": "F. Scott Fitzgerald",
+        "Title": "Tender Is the Night",
+        "Year": "1934"
+    },
+    {
+        "Author": "James T. Farrell",
+        "Title": "The Studs Lonigan",
+        "Year": "1932 & 1935"
+    },
+    {
+        "Author": "Ford Madox Ford",
+        "Title": "The Good Soldier",
+        "Year": "1915"
+    },
+    {
+        "Author": "William Styron",
+        "Title": "Sophie's Choice",
+        "Year": "1979"
+    },
+    {
+        "Author": "Paul Bowles",
+        "Title": "The Sheltering Sky",
+        "Year": "1949"
+    },
+    {
+        "Author": "John Fowles",
+        "Title": "The Magus",
+        "Year": "1965"
+    },
+    {
+        "Author": "James M. Cain",
+        "Title": "The Postman Always Rings Twice",
+        "Year": "1934"
+    },
+    {
+        "Author": "Henry James",
+        "Title": "The Golden Bowl",
+        "Year": "1904"
+    },
+    {
+        "Author": "Theodore Dreiser",
+        "Title": "Sister Carrie",
+        "Year": "1900"
+    },
+    {
+        "Author": "Evelyn Waugh",
+        "Title": "A Handful of Dust",
+        "Year": "1934"
+    },
+    {
+        "Author": "William Faulkner",
+        "Title": "As I Lay Dying",
+        "Year": "1930"
+    },
+    {
+        "Author": "Robert Penn Warren",
+        "Title": "All the Kings Men",
+        "Year": "1946"
+    },
+    {
+        "Author": "Thorton Wilder",
+        "Title": "The Bride of San Luis Rey",
+        "Year": "1927"
+    },
+    {
+        "Author": "James Baldwin",
+        "Title": "Go Tell It on the Mountain",
+        "Year": "1953"
+    },
+    {
+        "Author": "Graham Greene",
+        "Title": "The Heart of the Matter",
+        "Year": "1948"
+    },
+    {
+        "Author": "James Dickey",
+        "Title": "Deliverance",
+        "Year": "1970"
+    },
+    {
+        "Author": "Joseph Conrad",
+        "Title": "The Secret Agent",
+        "Year": "1907"
+    },
+    {
+        "Author": "Henry Miller",
+        "Title": "Tropic of Cancer",
+        "Year": "1934"
+    },
+    {
+        "Author": "Norman Mailer",
+        "Title": "The Naked and the Dead",
+        "Year": "1948"
+    },
+    {
+        "Author": "Paulo Coelho",
+        "Title": "The Alchemist",
+        "Year": "1988"
+    },
+    {
+        "Author": "Alexandre Dumas",
+        "Title": "The Three Musketeers",
+        "Year": "1844"
+    },
+    {
+        "Author": "Ian McEwan",
+        "Title": "Atonement",
+        "Year": "2001"
+    },
+    {
+        "Author": "John Le Carre",
+        "Title": "Tinker Tailor Soldier Spy",
+        "Year": "1974"
+    },
+    {
+        "Author": "Martin Amis",
+        "Title": "Money",
+        "Year": "2005"
+    },
+    {
+        "Author": "Jack London",
+        "Title": "The Call of the Wild",
+        "Year": "1903"
+    },
+    {
+        "Author": "Marcel Proust",
+        "Title": "In Search of Lost Time",
+        "Year": "1913 - 1927"
+    },
+    {
+        "Author": "Ray Bradbury",
+        "Title": "Fahrenheit 451",
+        "Year": "1953"
+    },
+    {
+        "Author": "Gabriel Garcia Marquez",
+        "Title": "One Hundred Years of Solitude",
+        "Year": "1967"
+    },
+    {
+        "Author": "Philip Roth",
+        "Title": "Portnoy's Complaint",
+        "Year": "1969"
+    },
+    {
+        "Author": "William Faulkner",
+        "Title": "Light in August",
+        "Year": "1932"
+    },
+    {
+        "Author": "Dashiell Hammett",
+        "Title": "The Maltese Falcon",
+        "Year": "1930"
+    },
+    {
+        "Author": "Ford Madox Ford",
+        "Title": "Parade's End",
+        "Year": "1924 - 1928"
+    },
+    {
+        "Author": "Edith Wharton",
+        "Title": "The Age of Innocence",
+        "Year": "1920"
+    },
+    {
+        "Author": "Nathaniel Hawthorne",
+        "Title": "The Scarlet Letter",
+        "Year": "1850"
+    }
+]

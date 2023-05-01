@@ -1,5 +1,5 @@
 .navbar{
-    padding: 1.8rem 0;
+    padding: 2.8rem 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 .navbar-brand{
@@ -26,7 +26,7 @@
     z-index: 10;
     background-color: var(--black-color);
     height: 100%;
-    width: 280px;
+    width: 380px;
     display: flex;
     padding: 10rem 3rem 0 3rem;
     transform: translatex(100%);
@@ -37,6 +37,7 @@
 }
 .nav-item{
     margin-bottom: 1.4rem;
+    
 }
 .nav-link{
     transition: var(--transition);

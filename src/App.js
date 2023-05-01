@@ -13,10 +13,10 @@ function App() {
       {/*Each individual Route is wrapped inside of the <Routes> Component */}
       <Routes> {/* Opening tag*/}
         <Route path="/" element={<Home/>} >
-        <Route path= "About" element={<About/>} />
-        <Route path= "Bookshelf" element={<Bookshelf/>} />
-        <Route path= "Book" element={<BookList/>} />
-        <Route path= "book/:Id" element={<BookDetails/>} />
+        <Route path= "/About" element={<About/>} />
+        <Route path= "/Bookshelf" element={<Bookshelf/>} />
+        <Route path= "/Book" element={<BookList/>} />
+        <Route path= "/book/:Id" element={<BookDetails/>} />
         </Route>
       </Routes>        
       

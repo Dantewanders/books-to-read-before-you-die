@@ -1,16 +1,19 @@
 import react from "react";
 import { Link } from "react-router-dom";
 import "./BookList.css";
+import Card from '@mui/material/Card';
+
 
 const Book = (props) => {
 
     return (
+
       <div className='book-item flex flex-column flex-sb'>
         <div className='book-item-img'>
           <img src = {props.cover_img} alt = "cover" />
         </div>
         <div className='book-item-info text-center'>
-          <Link to = {`/book/${props.id}`} {...props}>
+          <Link to = {`/book${props.id}`} {...props}>
             <div className='book-item-info-item title fw-7 fs-18'>
               <span>{props.title}</span>
             </div>
