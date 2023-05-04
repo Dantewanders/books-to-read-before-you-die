@@ -1,6 +1,9 @@
+
 <h1 align="center">
- Books to read before you die </h1>
+<img align="center" 
+     src= "/src/images/100 books logo.png" height="200px" align="center">  </h1>
 <h3 align="center">👋
+ 
  This is my first solo project for JRS Coding Bootcamp. 👋</h3>
 <h3 align="center">
 One of my aims is to begin catching up on all the reading I've
@@ -14,6 +17,13 @@ One of my aims is to begin catching up on all the reading I've
               one of the list's recommendations. The more the book was referred
               to by the lists, the more the experts agreed, and that book became
               part of my new and improved books to read before you die list.</h3>
+<h3 align='left'>
+ The app share my list with the user. Offers a search from https://openlibrary.org/ api.> 
+ <h3 align='left'> 
+ The search displays the Cover, Author, Year pubished and various editions with synopsis (when given). >
+ <h3 align='left'>
+ Future enhancments to the app, will include an account login feature, a bookshelf to store your choices and a review feature.>
+ 
 <h3 align="left">🔭 My Code Stack:</h3>
 <p align="left">
 <l>MySQL
