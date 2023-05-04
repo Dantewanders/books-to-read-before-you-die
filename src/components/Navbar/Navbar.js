@@ -23,7 +23,7 @@ const Navbar = (props) => {
     <nav className='navbar' id = "navbar">
       <div className='container navbar-content flex'>
         <div className='brand-and-toggler flex flex-sb'> {/* sb is space between vs. space around */}
-          <Link to = "/" className='navbar-brand flex'>
+          <Link to = "about" className='navbar-brand flex'>
             <img src = {logoImg} alt = "bookshelf logo" />
             
           </Link>
@@ -32,16 +32,17 @@ const Navbar = (props) => {
           </button>
         </div>
         <div className={toggleMenu ? "navbar-collapse show-navbar-collapse" : "navbar-collapse"}>
-          <ul className = "navbar-nav">
+          <ul className = "navbar-nav"> 
+          <li className='nav-item'>
+              <Link to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>The List</Link>
+            </li>
             <li className='nav-item'>
               <Link to = "book" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Library</Link>
             </li>
              <li className='nav-item'>
               <Link to = "bookshelf" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>Bookshelf</Link>
             </li>
-            <li className='nav-item'>
-              <Link to = "about" className='nav-link text-uppercase text-white fs-22 fw-6 ls-1'>The List</Link>
-            </li>
+           
            
           </ul>
         </div>
