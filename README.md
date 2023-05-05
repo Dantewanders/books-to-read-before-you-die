@@ -22,7 +22,7 @@ One of my aims is to begin catching up on all the reading I've
  <h3 align='left'> 
  The search displays the Cover, Author, Year pubished and various editions with synopsis (when given). >
  <h3 align='left'>
- Future enhancments to the app, will include an account login feature, a bookshelf to store your choices and a review feature.>
+ Future enhancments to the app, will include an account login feature, a bookshelf to store your choices and a review feature.
  
 <h3 align="left">🔭 My Code Stack:</h3>
 <p align="left">
