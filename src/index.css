@@ -103,7 +103,7 @@ without having to repeat the font-weight: 400 declaration for each element.*/
   .ls-2{letter-spacing: 2px;}
   
   .flex{
-    display: flex;
+   flex-flow: wrap;
     align-items: center;
   }
   .flex-column{

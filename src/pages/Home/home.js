@@ -27,7 +27,7 @@ function Home(props) {
           fontWeight="bold"
           mb={3}
         ></Typography>
-          <Card sx={{ maxWidth: 1000, borderRadius: "25px", opacity: "inherit" }}>
+          {/* <Card sx={{ maxWidth: 1000, borderRadius: "25px", opacity: "inherit" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Dante's Books to Read Before You Die
@@ -35,7 +35,7 @@ function Home(props) {
             <Typography variant="body2" color="text.secondary">
            </Typography>
           </CardContent>
-        </Card>
+        </Card> */}
         
         </Grid>
       </Fragment>

@@ -1,0 +1,10 @@
+.book-details{
+    padding: 3rem 0;
+    background-color: rgb(255, 255, 255) 
+    }
+    .book-details-img{
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }

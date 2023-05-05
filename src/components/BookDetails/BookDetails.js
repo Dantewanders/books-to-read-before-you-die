@@ -23,13 +23,11 @@ const BookDetails = () => {
         console.log(data);
 
         if(data){
-          const {description, title, covers, subject_places, subject_times, subjects} = data;
+          const {description, title, covers, subjects} = data;
           const newBook = {
             description: description ? description.value : "No description found",
             title: title,
             cover_img: covers ? `https://covers.openlibrary.org/b/id/${covers[0]}-L.jpg` : coverImg,
-            subject_places: subject_places ? subject_places.join(", ") : "No subject places found",
-            subject_times : subject_times ? subject_times.join(", ") : "No subject times found",
             subjects: subjects ? subjects.join(", ") : "No subjects found"
           };
           setBook(newBook);
@@ -66,14 +64,7 @@ const BookDetails = () => {
             <div className='book-details-item description'>
               <span>{book?.description}</span>
             </div>
-            <div className='book-details-item'>
-              <span className='fw-6'>Subject Places: </span>
-              <span className='text-italic'>{book?.subject_places}</span>
-            </div>
-            <div className='book-details-item'>
-              <span className='fw-6'>Subject Times: </span>
-              <span className='text-italic'>{book?.subject_times}</span>
-            </div>
+           
             <div className='book-details-item'>
               <span className='fw-6'>Subjects: </span>
               <span>{book?.subjects}</span>

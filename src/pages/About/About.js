@@ -252,7 +252,7 @@ function About() {
       mt="20px"
     >
       <Grid item xs={12} sm={4}>
-        <Card sx={{ maxWidth: 1200, borderRadius: "25px", mb: "20px" }}>
+        <Card sx={{ maxWidth: 1200, borderRadius: "25px", mb: "90px", boxShadow:"0px 10px 10px" }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               One of my aims is to begin catching up on all the reading I've
@@ -270,6 +270,9 @@ function About() {
           </CardContent>
         </Card>
       </Grid>
+      <div>
+        
+      </div>
       <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
         <AgGridReact
           rowData={rowData}
@@ -279,37 +282,8 @@ function About() {
         />
       </div>
 
-      <Grid item maxWidth={10}>
-        <Typography variant="body1" mb="20px" maxWidth={1300}></Typography>
-      </Grid>
-      {/* <Grid item xs={12} sm={4}>
-        <Card sx={{ maxWidth: 1600, borderRadius: "25px", opacity: "inherit" }}>
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              100 Books
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              <Grid container rowSpacing={0} columnSpacing={12} mt="3px">
-                <Grid item xs={4}>
-                  <ListItem sx={{ display: "list-item" }}>Dracula</ListItem>
-                </Grid>
-
-                <Grid item xs={4}>
-                  <ListItem sx={{ display: "list-item" }}>
-                    The Divine Comedy
-                  </ListItem>
-                </Grid>
-
-                <Grid item xs={4}>
-                  <ListItem sx={{ display: "list-item" }}>
-                    The Kite Runner
-                  </ListItem>
-                </Grid>
-              </Grid>
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid> */}
+      
+      
 
       <Grid
         container
