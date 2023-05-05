@@ -1,71 +1,55 @@
-# Getting Started with Create React App
-This was my first solo project with JRS Coding Bootcamp 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+<img align="center" 
+     src= "/src/images/100 books logo.png" height="200px" align="center">  </h1>
+<h3 align="center">👋
+ 
+ This is my first solo project for JRS Coding Bootcamp. 👋</h3>
+<h3 align="center">
+One of my aims is to begin catching up on all the reading I've
+              neglected for, well, the majority of my life. So, I started by
+              researching several combinations of 'books to read before you
+              die'. After carefully reading through what was on offer I decided
+              to take the collective wisdom from the various sources by
+              painstakingly comparing lists to determine how much overlap
+              existed between them. I used this information to create a new list
+              of the top books based on the number of times the book appeared as
+              one of the list's recommendations. The more the book was referred
+              to by the lists, the more the experts agreed, and that book became
+              part of my new and improved books to read before you die list.</h3>
+<h3 align='left'>
+ The app share my list with the user. Offers a search from https://openlibrary.org/ api.> 
+ <h3 align='left'> 
+ The search displays the Cover, Author, Year pubished and various editions with synopsis (when given). >
+ <h3 align='left'>
+ Future enhancments to the app, will include an account login feature, a bookshelf to store your choices and a review feature.>
+ 
+<h3 align="left">🔭 My Code Stack:</h3>
+<p align="left">
+<l>MySQL
 
-## Available Scripts
+<l>KNEX
 
-In the project directory, you can run:
+<l>Express
 
-### `npm start`
+<l>React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<l>Node JS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<l>Styling with Material UI</P>
+<h3 align="left">Development</h3>
 
-### `npm test`
+<h3 align="left">User Flow Diagram</h3> 
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ <h3 align="left">Database Diagram</h3>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3 align="left">Wireframe</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://github.com/Dantewanders
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/dante-p-taylor" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dante-p-taylor" height="30" width="40" /></a>
+</p>
